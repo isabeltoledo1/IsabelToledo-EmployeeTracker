@@ -21,6 +21,8 @@ VALUES
 ('Daenerys Targaryen', 1, 4),
 ('Sansa', 'Stark', 4, 1);
 
-
+SELECT * FROM department;
+SELECT * FROM role;
+SELECT * FROM employee;
 
 
