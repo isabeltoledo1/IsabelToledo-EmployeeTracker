@@ -1,8 +1,7 @@
-
 var mysql = require("mysql");
-var inquirer = require("inquirer");
+var inquirer = require("inquirer")
+var cTable = require('console.table');
 
-// create the connection information for the sql database
 var connection = mysql.createConnection({
   host: "localhost",
 
@@ -12,14 +11,15 @@ var connection = mysql.createConnection({
   // Your username
   user: "root",
 
-  // Your password
+  //Your password
   password: "Password1!",
-  database: "greatBay_DB"
+  database: "employee_trackerDB"
 });
 
-// connect to the mysql server and sql database
+
+
 connection.connect(function(err) {
-  if (err) throw err;
-  // run the start function after the connection is made to prompt the user
-  start();
+  if (err) throw err
+  console.log("Connected as Id" + connection.threadId)
+  startPrompt();
 });
