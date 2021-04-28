@@ -1,7 +1,7 @@
 # Employee Tracker
 
 
-![](assets/screenshot.png)
+![](Assets/screenshot.png)
 
 
 
