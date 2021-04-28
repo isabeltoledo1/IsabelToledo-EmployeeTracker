@@ -14,7 +14,7 @@ A command line application that allows the user to view their employee directory
 
   
 ### Video Walkthrough
-    
+ https://drive.google.com/file/d/1zkZCXh0yIpJejlENZtNO3kuEBN_5j9kF/view   
  
 
 
